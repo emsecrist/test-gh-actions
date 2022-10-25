@@ -16,8 +16,8 @@ jobs:
 
       - name: terraform fmt
         uses: dflook/terraform-fmt@v1
-        with:
-          path: my-terraform-config
+        #with:
+        #  path: my-terraform-config
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
