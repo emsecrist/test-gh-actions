@@ -1,0 +1,98 @@
+{
+  "version": 4,
+  "terraform_version": "1.2.0",
+  "serial": 4,
+  "lineage": "889891cd-a59e-6bd2-7b3d-8626ebfebc8b",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_instance",
+      "name": "eric_example",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "ami": "ami-ebc42a93",
+            "arn": "arn:aws:ec2:us-west-2:150311771908:instance/i-05b5ed3b344bee04c",
+            "associate_public_ip_address": false,
+            "availability_zone": "us-west-2b",
+            "cpu_core_count": 1,
+            "cpu_threads_per_core": 1,
+            "credit_specification": [
+              {
+                "cpu_credits": "standard"
+              }
+            ],
+            "disable_api_termination": false,
+            "ebs_block_device": [
+              {
+                "delete_on_termination": true,
+                "device_name": "/dev/xvdf",
+                "encrypted": false,
+                "iops": 300,
+                "kms_key_id": "",
+                "snapshot_id": "",
+                "volume_id": "vol-02ea5eaa66ca16bec",
+                "volume_size": 100,
+                "volume_type": "gp2"
+              }
+            ],
+            "ebs_optimized": false,
+            "ephemeral_block_device": [],
+            "get_password_data": false,
+            "host_id": null,
+            "iam_instance_profile": "",
+            "id": "i-05b5ed3b344bee04c",
+            "instance_initiated_shutdown_behavior": null,
+            "instance_state": "stopped",
+            "instance_type": "t2.micro",
+            "ipv6_address_count": 0,
+            "ipv6_addresses": [],
+            "key_name": "",
+            "monitoring": false,
+            "network_interface": [],
+            "network_interface_id": null,
+            "password_data": "",
+            "placement_group": "",
+            "primary_network_interface_id": "eni-0c47ca37be4836b89",
+            "private_dns": "ip-172-31-46-242.us-west-2.compute.internal",
+            "private_ip": "172.31.46.242",
+            "public_dns": "",
+            "public_ip": "",
+            "root_block_device": [
+              {
+                "delete_on_termination": true,
+                "encrypted": false,
+                "iops": 150,
+                "kms_key_id": "",
+                "volume_id": "vol-0c52e37533b6d775f",
+                "volume_size": 50,
+                "volume_type": "gp2"
+              }
+            ],
+            "security_groups": [
+              "default"
+            ],
+            "source_dest_check": true,
+            "subnet_id": "subnet-a26bd0d4",
+            "tags": {
+              "Name": "eric-example"
+            },
+            "tenancy": "default",
+            "timeouts": null,
+            "user_data": null,
+            "user_data_base64": null,
+            "volume_tags": {},
+            "vpc_security_group_ids": [
+              "sg-76e27510"
+            ]
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6MTIwMDAwMDAwMDAwMCwidXBkYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    }
+  ]
+}
